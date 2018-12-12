@@ -40,6 +40,19 @@ table {
 	border-spacing: 0;
 }
 
+/* 접근성(accessibility)을 고려한 화면 감춤 */
+.a11y-hidden {
+	overflow: hidden;
+	position: absolute;
+	clip: rect(0,0,0,0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+}
+
+
 /* common */
 .local, .global {
 	display: block;
